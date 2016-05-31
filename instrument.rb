@@ -1,8 +1,10 @@
 class Instrument
-	attr_accessor :nombre, :tipo
+	attr_accessor :name, :type
 
-	def initialize(nombreI, tipoI)
-		@nombre = nombreI
-		@tipo = tipoI
+	def initialize(nameI, typeI)
+		@name = nameI
+		@type = typeI
 	end
+
+	
 end
